@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #fff;
+}
+header {
+  background: #363636;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding: 15px 0 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav ul li {
+  padding: 0 10px;
+  border-right: 1px solid #fff;
+}
+nav ul li:nth-last-child(1) {
+  border-right: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #f90;
+}
+.pocetna {
+    color: #f90;
+}
+.pocetna:hover {
+    color: #fff;
+}
