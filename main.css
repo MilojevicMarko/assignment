@@ -14,7 +14,7 @@ body {
 a {
   text-decoration: none;
 }
-small {
+.small {
   font-size: 12px;
 }
 header {
@@ -149,6 +149,11 @@ footer {
   position: relative;
   margin-top: 100px;
 }
+.footer-text {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
 .soc-net {
   display: flex;
   position: absolute;
@@ -167,10 +172,10 @@ footer {
   width: 60px;
   height: 60px;
   border: 10px solid #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
   display: block;
   border-radius: 50%;
-   text-indent: -9999px;
+  text-indent: -9999px;
   background-image: url("../img/soc-net-sprite.png");
   transition: all 0.3s;
 }
